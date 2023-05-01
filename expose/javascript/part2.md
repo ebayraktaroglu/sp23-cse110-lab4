@@ -32,3 +32,4 @@
     - E. false because true converts to 1 and 1 doesn't equal 2.
     - F. true because Boolean(2) becomes true.
  15. == tries to convert the two values into the same type, then does the comparison, while === does comparison without doing type conversion.
+ 17. The result will be [2,6,8]. The function modifyArray iterates through all the values in the array [1,2,3] and runs the function doSomething on each value and pushed them to the new array that will be returned. The function doSomething multiplies each value by 2.
