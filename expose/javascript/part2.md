@@ -23,7 +23,7 @@
     - E. 4 because true gets converted to 1.
     - F. 0 because both false and null are converted to 0.
     - G. '3undefined' because undefined gets converted to 'undefined' to get concatenated with '3'.
-    - H. NaN because neither can be converted to the other's type to get an expression that can be evaluated.
+    - H. NaN because '3' gets converted to 3 and undefined gets converted to NaN.
 15. Parts:
     - A.
     - B.
