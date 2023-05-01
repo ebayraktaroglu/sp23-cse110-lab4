@@ -10,10 +10,10 @@
 10. Line 12 will print "3," which is the length of the prices list when the function is called.
 11. The code will return a list of prices, prices that are the ones given to the function with the given discount applied to them. The list will be [50,100,150].
 12. Parts:
-    A. student.name
-    B. student['Grad Year']
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
-    E. student.courseload[0]
+    - A. student.name
+    - B. student['Grad Year']
+    - C. student.greeting()
+    - D. student['Favorite Teacher'].name
+    - E. student.courseload[0]
 13. d
 14. 
