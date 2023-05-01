@@ -34,7 +34,11 @@
  15. == tries to convert the two values into the same type, then does the comparison, while === does comparison without doing type conversion.
  17. The result will be [2,4,6]. The function modifyArray iterates through all the values in the array [1,2,3] and runs the function doSomething on each value and pushed them to the new array that will be returned. The function doSomething multiplies each value by 2.
  19. This is printed:
+ 
     1
+    
     4
+    
     3
+    
     2
