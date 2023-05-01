@@ -25,9 +25,10 @@
     - G. '3undefined' because undefined gets converted to 'undefined' to get concatenated with '3'.
     - H. NaN because '3' gets converted to 3 and undefined gets converted to NaN.
 15. Parts:
-    - A.
-    - B.
-    - C.
-    - D.
-    - E.
-    - F.
+    - A. true because '2' becomes 2.
+    - B. false because '2' isn't lexographically smaller than '12'.
+    - C. true because '2' becomes a 2
+    - D. false because 2 isn't equal to '2' without doing type conversions.
+    - E. false because true converts to 1 and 1 doesn't equal 2.
+    - F. true because Boolean(2) becomes true.
+ 16. == tries to convert the two values into the same type, then does the comparison, while === does comparison without doing type conversion.
