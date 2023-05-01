@@ -15,5 +15,19 @@
     - C. student.greeting()
     - D. student['Favorite Teacher'].name
     - E. student.courseLoad[0]
-13. d
-14. 
+13. Parts:
+    - A. '32' because 2 is converted to the string '2' because the plus sign can indicate string concatenation.
+    - B. 1 because the '3' gets converted to 3 because the negative sign doesn't do anything for strings.
+    - C. '3' because null gets converted to 0.
+    - D. '3null' because null gets converted to 'null' so it can be concatenated to '3'.
+    - E. 4 because true gets converted to 1.
+    - F. 0 because both false and null are converted to 0.
+    - G. '3undefined' because undefined gets converted to 'undefined' to get concatenated with '3'.
+    - H. NaN because neither can be converted to the other's type to get an expression that can be evaluated.
+15. Parts:
+    - A.
+    - B.
+    - C.
+    - D.
+    - E.
+    - F.
